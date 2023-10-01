@@ -1,0 +1,78 @@
+.body h1{
+    color: white;
+    transition: 13s all ease;
+}
+#main{color: rgba(127, 255, 212, 0.253);
+    background-image: linear-gradient(to right, rgba(232, 203, 192, 0.507), rgba(99, 111, 164, 0.705)),url(./image/download.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body p{
+    width: 600px;
+    color: white;
+    margin: 10px 0px;
+}
+.fix{width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+}
+.body{
+    box-shadow: linear-gradient(to right, rgba(15, 12, 41, 0.904), rgba(48, 43, 99, 0.89), rgba(36, 36, 62, 0.753)) ;
+    padding: 20px 20px;
+    text-align: center;
+    }
+    .body button{
+        padding: 15px 20px;
+        background: linear-gradient( to right,rgba(106, 48, 147, 0.747),rgba(162, 68, 255, 0.773));
+        border: none;
+        cursor: white;
+        transition: 13s all ease;
+    }
+    .bg marquee{
+        font-size: 50px;
+        font-family: cursive;
+        font-weight: bolder;
+        margin-top: 100px;
+        color: white;
+        transition: 10s all ease;
+    }
+    .bg span{
+        margin-left: 250px;
+        color: aliceblue;
+        transition: 13s all ease;
+
+ }
+ .bg marquee:hover{color: darkgrey;
+    transition: 13s all ease;
+ }
+ .bg marquee span:hover{
+    color: maroon;
+    transition: 13s all ease;
+
+ }
+ .body h1:hover{
+    color: cornsilk;
+    transition: 13s all ease;
+}
+.body button:hover{
+    color: aqua;
+    background-color: darkgrey;
+    transition: 13s all ease;
+
+}
+#lg{
+    font-size: 80px;
+    color: aliceblue;
+    justify-content: space-between;
+}
+.dn{
+    display: flex;
+}
+.id{
+    margin: 0 18px;
+}
